@@ -6,7 +6,7 @@ from PIL import Image
 def MyBG_colour(wch_colour):
     my_colour=f"<style>.stApp{{bacground-color:{wch_colour};}}</style>"
     st.markdown(my_colour,unsafe_allow_html=True)
-MyBG_colour("#625E64")
+MyBG_colour("#EA4855")
 
 st.markdown("""
         <style>
